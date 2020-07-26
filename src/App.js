@@ -7,7 +7,7 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <Router>
+            <Router basename={window.location.pathname || ''}>
                 <Route exact path='/' component={Home} />
                 <Route exact path='/instructions' component={Instructions} />
             </Router>
