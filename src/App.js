@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Redirect } from "react-router-dom";
 import logo from './graphics/logo.png';
 import symbol from './graphics/logo_1.png';
 import './App.css';

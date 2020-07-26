@@ -7,7 +7,7 @@ export default class Timer extends Component {
             <div>
                 <h1 style={{color:'#3241e4', fontSize:40}}>Time for a break!</h1>
                 <div style={{color:'#F05E50', fontSize:160}}>
-                    <time className="Timer-num">0:30:59</time>
+                    <time id="Timer-num">0:30:59</time>
                 </div>
                 <br />
             </div>
