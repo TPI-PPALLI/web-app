@@ -3,6 +3,7 @@ import logo from "../graphics/logo.png";
 import symbol from "../graphics/logo_1.png";
 import Timer from "./timer.js";
 import SocialMediaButtons from "./socialMediaButtons";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -32,13 +33,11 @@ const Home = () => {
           </button>
         </div>
         <div className="Button-group">
+          <Link to="/instructions">
           <button className="Instructions">
-            <a className="App-link" href="">
-              {" "}
-              {/*include link to instructions here*/}
-              PPALLI Guide
-            </a>
+              Instructions
           </button>
+          </Link>
         </div>
       </body>
     </div>
