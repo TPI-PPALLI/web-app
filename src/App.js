@@ -1,19 +1,16 @@
-import React, {Component} from 'react';
-import { Redirect } from "react-router-dom";
+import React from 'react';
 import logo from './graphics/logo.png';
 import symbol from './graphics/logo_1.png';
 import './App.css';
 import Timer from './components/timer.js'
 import SocialMediaButtons from "./components/socialMediaButtons";
 
-
-
 function App() {
     return (
         <div className="App">
             <div className="App-header">
-                <img src={logo} className="App-logo"/>
-                <img src={symbol} className="App-symbol"/>
+                <img src={logo} className="App-logo" alt="logo"/>
+                <img src={symbol} className="App-symbol" alt="symbol"/>
                 <p className="App-slogan">Empower You to Feel Awesome</p>
                 <SocialMediaButtons url="www.google.com" text="Check out what I just did!"/>
             </div>
