@@ -29,6 +29,13 @@ function App() {
                     </a>
                 </button>
             </div>
+            <div className="Button-group">
+                <button className="Instructions" >
+                    <a className="App-link" href=""> {/*include link to instructions here*/}
+                        PPALLI Guide
+                    </a>
+                </button>
+            </div>
             </body>
         </div>
     );

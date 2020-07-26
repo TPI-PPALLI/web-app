@@ -38,4 +38,4 @@ const SocialMediaButtons = (props) => (
     </div>
 )
 
-export default SocialMediaButtons
+export default SocialMediaButtons;
