@@ -38,7 +38,7 @@
 .App-body {
   background-image: url("./graphics/village.png");
   background-size: cover;
-  min-height: 100vh;
+  min-height: 86vh;
   min-width: 50vh;
   display: flex;
   flex-direction: column;
@@ -51,10 +51,6 @@
 .App-link {
   color: #624e3c;
   text-decoration: none;
-}
-
-.Button-group button:hover {
-  background-color: #D4C38E;
 }
 
 .Button-group button {
