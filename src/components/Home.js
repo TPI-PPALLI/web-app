@@ -11,7 +11,7 @@ const Home = () => {
       <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <img src={symbol} className="App-symbol" alt="symbol" />
-        <p className="App-slogan">Empower You to Feel Awesome</p>
+        <p className="App-slogan">Break Binge: Empower Productivity One Ppalli at a Time</p>
         <SocialMediaButtons
           url="www.google.com"
           text="Check out what I just did!"

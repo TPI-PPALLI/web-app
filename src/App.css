@@ -14,10 +14,10 @@
 .App-symbol {
   pointer-events: none;
   resizeMode: contain;
-  height: 4vh;
+  height: 6vh;
   position: absolute;
-  left: 20vh;
-  top: 1.8vh;
+  left: 18vh;
+  top: 1.2vh;
 }
 
 .App-slogan {

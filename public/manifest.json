@@ -28,7 +28,7 @@
 
   "start_url": ".",
   "display": "standalone",
-  "homepage": https://clover243.github.io/{github_repo}
+  "homepage": "https://tpi-ppalli.github.io/web-app/",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
